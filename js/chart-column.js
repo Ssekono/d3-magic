@@ -8,7 +8,7 @@ $(document).ready(function() {
 	/**
 	 * Script uses d3 library to draw chart
 	 * 
-	 * Multiplying factor still needs to be computed to allow propotional scaling of graph
+	 * Multiplying factor still needs to be computed to allow proportional scaling of graph
 	 * 
 	 */
 	function drawChart() {
@@ -105,7 +105,7 @@ $(document).ready(function() {
 		 * Function inserts tooltip markup in the DOM
 		 */	
 		function toolTip() {
-				$("body").append( '<div id="tooltip" class="hidden">'
+				$(".d3-wrapper").append( '<div id="tooltip" class="hidden">'
 					            + '<p><strong>Important Label Heading</strong></p>'
 					            + '<p><span id="value">100</span>%</p>'
 					            + '</div>');
